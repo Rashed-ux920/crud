@@ -3,19 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>taskmanegment</title>
+    <title>Tasketo</title>
     <link rel="stylesheet" href="css/index.css">
+    <?php
+
+    ?>
 </head>
 <body>
     <header>
-            <a href="index.php" ><h4>tasketo</h4></a>
+            <a href="index.php" ><h4>TASKETO</h4></a>
             <div class="signin">
                 <a href="javascript:void(0)" onclick="openPopup()">Sign in</a>
                 <a href="javascript:void(2)" onclick="openLoginPopup()">logein</a>
             </div>
-            <div class="signin">
-                <a href="admin.php">admin</a>
-            </div>
+            <!-- <div class="signin">
+                <a href="admin.php"></a>
+            </div> -->
         <div id="popupForm" class="popup">
             <div class="popup-content">
                 <span class="close" onclick="closePopup()">&times;</span>
@@ -44,7 +47,7 @@
                 <input type="submit" value="Loge In">
             </form>
         </div>
-    </div>
+    
        
     </header>
     <div class="contaner">
@@ -53,9 +56,9 @@
         </div>
         <div class="text">
             <p>
-                <h4>hi, i am rashed the founder of tasketo</h4> <br>
+                <h2>hi, i am rashed the founder of tasketo</h2> <br>
                 <h1>welcome, i am  very happy to meet you</h1><br>
-                <h4>to get more services <span>sign in</span> or <span>loge in</span></h4>
+                <h2>to get more services <span>sign in</span> or <span>loge in</span></h2>
             </p>
         </div>
     </div>
